@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Biblioteca Mea</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #ff0f0f;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    ul, ol {
+      padding-left: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #fff;
+    }
+
+    th {
+      background-color: #2980b9;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    video {
+      width: 100%;
+      max-height: 240px;
+      margin-top: 20px;
+    }
+
+    .book-section ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+    }
+
+    .book-section li {
+      flex: 1;
+      text-align: center;
+      margin-right: 10px;
+    }
+
+    .book-section img {
+      width: 200px;
+      height: 300px;
+    }
+
+    .program-lectura {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+    }
+  
+  .program-lectura h2 {
+    font-size: 15px;
+  }
+  .informatii-despre-autor{
+    font-size: 18px;
+  }
+  
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="video.html">Video</a>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Biblioteca Mea</h1>
+
+  <h2>Cărți</h2>
+  <div class="book-section">
+    <ul>
+      <li>
+        <div class="book-details">
+          <img src="imagini/gandul.jpeg" alt="Imagine Carte 1">
+          <h3>,,Cu gândul la tine" de Aurelian Silvestru</h3>
+        </div>
+      </li>
+      <li>
+        <div class="book-details">
+          <img src="imagini/amintiri.jpg" alt="Imagine Carte 2">
+          <h3>,,Amintiri din Copilărie" de Ion Creangă</h3>
+        </div>
+      </li>
+      <li>
+        <div class="book-details">
+          <img src="imagini/la-steaua-lecturi-scolare_1_fullsize.webp" alt="Imagine Carte 3">
+          <h3>,,La steaua" de Mihai Eminescu</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="program-lectura">
+    <h2>Programul de Lectură</h2>
+    <li>de la 8:00-12:00<li>de la 14:00-17:00
+  </div>
+<div class="informatii-despre-autor">
+  <h2>Informații Despre Autor</h2>
+  <p>Mihai Eminescu-a fost un poet, 
+    prozator și jurnalist român, 
+    considerat cel mai important 
+    poet al literaturii române.Eminescu a fost un 
+    simbol al 
+    romantismului și un promotor al naționalismului
+     românesc.</p>
+
+     <p>Ion Creangă-a fost un scriitor român și este considerat 
+     unul dintre cei mai importanți autori de literatură pentru 
+     copii din România.Stilul său este plin de umor, farmec și imaginație, 
+     iar personajele sale au devenit iconice în literatura română. 
+    </p>
+     <p>Aurelian Silvestru-a fost un poet, prozator 
+     și publicist român.El a scris poezii, povestiri, 
+     romane și piese de teatru. Aurelian Silvestru a fost 
+     cunoscut pentru lirismul și sensibilitatea 
+     exprimate în versurile sale. 
+    </p>
+  </div>
+
+  <h2>Tabel Împrumuturi</h2>
+  <table>
+    <tr>
+      <th>Cod carte</th>
+      <th>Titlu carte</th>
+      <th>Data împrumut</th>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>Amintiri din Copilărie</td>
+      <td>01/05/2023</td>
+    </tr>
+    <tr>
+      <td>002</td>
+      <td>La steaua</td>
+      <td>03/05/2023</td>
+    </tr>
+  </table>
+
+</body>
+</html>
